@@ -9,7 +9,7 @@ namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
-        // View
+        // Index View
         public ViewResult Index()
         {
             // Create customers list with GetCustomers
