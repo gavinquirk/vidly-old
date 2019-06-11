@@ -13,6 +13,10 @@ namespace Vidly
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapMvcAttributeRoutes();
+
+
+            // Default Route -- Must be last
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
